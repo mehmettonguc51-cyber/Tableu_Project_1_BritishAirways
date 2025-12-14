@@ -1,4 +1,4 @@
-# British Airways Customer Review Analysis ✈️📊
+# British Airways Customer Review Analysis 
 
 ## Project Overview
 
@@ -6,7 +6,7 @@ This Tableau project provides a comprehensive analysis of **British Airways cust
 
 By visualizing sentiment data, the dashboard enables deep-dives into specific metrics such as **Cabin Staff Service**, **Entertainment**, and **Seat Comfort**, while also offering granular views by aircraft type, traveler type, and geographic region.
 
-## 📂 Data Sources
+## Data Sources
 
 The project utilizes two primary datasets:
 
