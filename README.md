@@ -1,9 +1,6 @@
 # British Airways Customer Review Analysis ✈️📊
 
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
-![Data Visualization](https://img.shields.io/badge/Data_Visualization-4B4B4B?style=for-the-badge)
-
-## 📌 Project Overview
+## Project Overview
 
 This Tableau project provides a comprehensive analysis of **British Airways customer reviews** spanning from **2016 to 2023**. The interactive dashboard is designed to monitor airline performance across key service touchpoints, helping stakeholders identify areas for improvement in passenger satisfaction.
 
@@ -19,7 +16,7 @@ The project utilizes two primary datasets:
     * **Flight Details:** Aircraft model (`aircraft`), Route, Seat Type (`Economy`, `Business`, `First`), and Date Flown.
 2.  **`Countries.csv`**: A lookup table containing **Country Names, Codes, Continents, and Regions**. This dataset is joined with the review data to map reviewer locations to continents for geospatial analysis.
 
-## 📊 Dashboard Features
+## Dashboard Features
 
 The dashboard is composed of several interactive visualizations:
 
@@ -43,7 +40,7 @@ The dashboard is composed of several interactive visualizations:
     * **Average Rating (Blue Bars):** Satisfaction level for specific aircraft (e.g., Boeing 777, A380).
     * **Number of Reviews (Red Bars):** The volume of feedback, providing statistical context to the ratings.
 
-## 🎛️ Interactivity & Filters
+## Interactivity & Filters
 
 The dashboard includes a robust control panel on the left sidebar:
 
@@ -54,26 +51,3 @@ The dashboard includes a robust control panel on the left sidebar:
     * **Month of Date:** Time-slider to narrow down the analysis period (e.g., March 2016 – Oct 2023).
     * **Seat Type:** Toggle between *Business Class, Economy Class, First Class*, etc.
     * **Traveller Type:** Filter by *Business, Couple Leisure, Family Leisure*, etc.
-
-## 🛠️ Technologies Used
-
-* **Tableau Desktop:** Data visualization and dashboard construction.
-* **Data Modeling:** Relationships/Joins established between `ba_reviews.csv` (Place) and `Countries.csv` (Country) to enable geographic hierarchies.
-* **Calculated Fields & Parameters:** Used for dynamic metric selection (`CASE` statements) and custom KPI aggregation.
-
-## 🚀 How to Use
-
-1.  **Clone the Repository:**
-    ```bash
-    git clone [https://github.com/yourusername/british-airways-analysis.git](https://github.com/yourusername/british-airways-analysis.git)
-    ```
-2.  **Open the Project:**
-    * Launch Tableau Desktop.
-    * Open the `.twbx` file (Tableau Packaged Workbook).
-3.  **Interact:**
-    * Use the **radio buttons** on the top left to change the primary analysis metric.
-    * Adjust the **date slider** to focus on recent performance (post-2020) vs. historical trends.
-    * Hover over the **aircraft bar chart** to see exact review counts and average scores.
-
----
-*Created by [Your Name]*
